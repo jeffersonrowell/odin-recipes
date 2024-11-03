@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(56, 77, 14);
+    text-decoration-color: white;
+    color: white;
+    padding: 10px;
+}
+
+.button {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    
+}
+.button:hover {
+    color: red;
+}
+
+ol {
+    list-style-type: upper-roman; /* Sets the numbering style, e.g., decimal, upper-roman, lower-alpha */
+    font-size: 30px; /* Controls the size of the numbers */
+    color: black; /* Controls the color of the numbers */
+    font-weight: lighter; /* Makes the numbers bold */
+    padding-left: 8%;
+}
+
+#end {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
